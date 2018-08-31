@@ -1,0 +1,5 @@
+<div>
+  <h3>Give me 3 numbers and I'll tell you which one is the biggest!</h3>
+  <button class="button" onclick= "myFunction()">Start</button>
+  <p id="result"></p>
+</div>
