@@ -1,0 +1,16 @@
+function myFunction(){
+  var x = prompt("Enter your first number");
+  var y = prompt("Enter your second number");
+  var z = prompt("Enter your third number");
+  var num1 = parseInt(x, 10);
+  var num2 = parseInt(y, 10);
+  var num3 = parseInt(z, 10);
+  if (num1 > num2 && num1 > num3){
+ document.getElementById("result").innerHTML = "The biggest number was " +num1+ "!!";
+  } else if (num2 > num1 && num2 > num3){
+ document.getElementById("result").innerHTML = "The biggest number was " +num2+ "!!";
+  } else if (num3 > num2 && num3 > num1){
+ document.getElementById("result").innerHTML = "The biggest number was "+num3+ "!!";
+  }
+  
+}
